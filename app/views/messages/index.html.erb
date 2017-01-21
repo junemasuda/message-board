@@ -15,4 +15,15 @@
   </div>
 </div>
 
+<<<<<<< HEAD
 <%= render 'form' %>
+=======
+<%= form_for(@message) do |f| %>
+  名前:
+  <%= f.text_area :name %>
+
+  内容:
+  <%= f.text_area :body %>
+  <%= f.submit class: "btn btn-sm btn-primary" %>
+<% end %>
+>>>>>>> challenge1
